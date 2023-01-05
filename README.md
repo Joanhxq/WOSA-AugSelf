@@ -26,7 +26,7 @@ CUDA_VISIBLE_DEVICES=<gpu_id> python code/train.py.py --dataset "your dateset na
 ```
 
 ### Test (style transfer)
-For different style transfer modules, arguments `adain`, `osa`, `wosa`
+Arguments `adain`, `osa`, `wosa` For different style transfer modules
 ```bash
 python code/seg_test.py --wosa
 python code/seg_test.py --osa
